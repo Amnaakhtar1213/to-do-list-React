@@ -1,11 +1,11 @@
 
-## TO-DO-LIST   (using react)
+## TO-DO-LIST  📝 (using react)
 
 A simple to-do-list project made with **React**.It has a input bar, a button to add the todos.Three buttons to delete, move the task up and move the task down and a little bit of **CSS** to add attraction.
 
 ---
 
-## Features
+## Features 🚀
 
 1. Add button to add the tasks
 2. Delete button to delete the tasks
@@ -15,7 +15,7 @@ A simple to-do-list project made with **React**.It has a input bar, a button to 
 
 ---
 
-## Technology 
+## Technology 🛠️
 
 - **React**
 - **Vite**
@@ -24,9 +24,23 @@ A simple to-do-list project made with **React**.It has a input bar, a button to 
 
 ---
 
-## hOW TO RUN 
+## hOW TO RUN ✨
+-----------------------
 
-[CLICK HERE TO VIEW THE REPOSITORY](https://github.com/Amnaakhtar1213/to-do-list-React-)
+## screenshot 📸
 
+Here's take a quick look:
+- [Click here for to-do app screenshot](ss.png)
+
+-------------------------
+
+## LIVE DEMO 🌐
+
+Here's take a quick test yourself:
+- [Click here and use the to-do app yourself]()
+
+----------------------
+
+## Clone the Repository
 ```bash
 git clone https://github.com/Amnaakhtar1213/to-do-list-React-.git
