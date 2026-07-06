@@ -74,3 +74,75 @@ li{
   padding: 8px 12px;
   margin-right: 10px;
 }
+
+/* Tablet screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  input[type="text"] {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  button {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+  li {
+    font-size: 1.5rem;
+    flex-wrap: wrap; /* allow text + buttons to wrap */
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .to-do-list {
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+
+  input[type="text"] {
+    width: 90%;               /* full width with left/right gap */
+    max-width: 300px;         /* prevent it from being too wide */
+    margin: 0 auto;           /* center input */
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 6px 12px;
+    margin: 5px 0;
+    width: 100%;       /* full width buttons for easy tap */
+    max-width: 200px;
+  }
+
+  li {
+    font-size: 1.2rem;
+    flex-direction: column;   /* stack text + buttons vertically */
+    align-items: flex-start;
+    width: 100%;              /* let each task take full width */
+    box-sizing: border-box;
+  }
+
+    .text {
+    margin-bottom: 10px;
+    width: 100%;              /* text spans full width */   /* prevent overflow */
+  }
+
+    .del-btn, .up-btn, .down-btn {
+    margin: 5px 0;
+    width: 100%;              /* buttons full width for easy tap */
+    max-width: 250px;
+    font-size: 1rem;
+    padding: 8px;
+  }
+   ol {
+    padding: 0 10px; /* add equal left/right gap */
+  }
+}
