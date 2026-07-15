@@ -23,6 +23,7 @@ button{
 }
 .add-btn{
   background: rgba(0, 128, 0, 84%);
+  margin-left: 10px;
 }
 .add-btn:hover{
   background: rgba(0, 128, 0, 74%);
